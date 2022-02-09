@@ -1,8 +1,8 @@
 module.exports = {
   title: 'AEMO Design Tokens',
   tagline: 'The tagline of my site',
-  url: 'https://danielwang.github.io/aemo-design-tokens/',
-  baseUrl: '/',
+  url: 'https://danielwang.github.io',
+  baseUrl: '/aemo-design-tokens/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

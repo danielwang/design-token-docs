@@ -1,7 +1,7 @@
 ---
 id: doc1
-title: Style Guide
-sidebar_label: Style Guide
+title: Brand Guideline
+sidebar_label: Brand Style Guide
 slug: /
 ---
 

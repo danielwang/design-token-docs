@@ -1,6 +1,6 @@
 module.exports = {
   title: 'AEMO Design Tokens',
-  tagline: 'The tagline of my site',
+  tagline: 'Styling with design tokens makes it easy to ensure that our UI is consistent, and even easier to update it as design evolves.',
   url: 'https://danielwang.github.io',
   baseUrl: '/aemo-design-tokens/',
   onBrokenLinks: 'throw',
@@ -8,6 +8,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'aemo', // Usually your GitHub org/user name.
   projectName: 'aemo-design-tokens', // Usually your repo name.
+  plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
       title: 'AEMO Design Tokens',
@@ -90,7 +91,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],

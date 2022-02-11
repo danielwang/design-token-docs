@@ -7,7 +7,7 @@
 
 /* You can override the default Infima variables here. */
 
-@import "../../node_modules/@danielwang/aemo-design-tokens/build/css/_variables.css"; 
+ @import "../../node_modules/@danielwang/aemo-design-tokens/build/scss/_variables"; 
 
 :root {
   --gel-color-primary-purple-700: #360f3c;
@@ -79,16 +79,18 @@
   --gel-spacer-7: 8rem;
 }
 
+
 :root {
-  --ifm-color-primary: var(--gel-color-ui-primary-purple-500);
-  --ifm-color-primary-dark: var(--gel-color-ui-primary-purple-600);
-  --ifm-color-primary-darker: var(--gel-color-ui-primary-purple-700);
-  --ifm-color-primary-darkest: var(--gel-color-ui-primary-purple-700);
-  --ifm-color-primary-light: var(--gel-color-ui-primary-purple-400);
-  --ifm-color-primary-lighter: var(--gel-color-ui-primary-purple-300);
-  --ifm-color-primary-lightest: var(--gel-color-ui-primary-purple-100);
+  --ifm-color-primary: #702f73;
+  --ifm-color-primary-dark: #652a68;
+  --ifm-color-primary-darker: #5f2862;
+  --ifm-color-primary-darkest: #4e2151;
+  --ifm-color-primary-light: #7b347e;
+  --ifm-color-primary-lighter: #813684;
+  --ifm-color-primary-lightest: #923d96;
   --ifm-code-font-size: 100%;
 }
+
 /* .AvenirLT-Medium { 
 	font-family: AvenirLT-Medium;
 	font-weight: normal;

@@ -13,7 +13,7 @@
     "generate-tokens-docs": "node generateTokenDocs.js"
   },
   "dependencies": {
-    "@danielwang/aemo-design-tokens": "^0.2.0",
+    "@danielwang/aemo-design-tokens": "^0.3.0",
     "@docusaurus/core": "^2.0.0-beta.15",
     "@docusaurus/plugin-content-docs": "^2.0.0-beta.15",
     "@docusaurus/preset-classic": "^2.0.0-beta.15",
@@ -21,6 +21,8 @@
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
     "docusaurus-plugin-sass": "^0.2.2",
+    "file-loader": "^6.2.0",
+    "module-alias": "^2.2.2",
     "prettier": "^2.5.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -38,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.1.0"
   }
 }

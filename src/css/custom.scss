@@ -88,7 +88,8 @@
   --ifm-color-primary-light: #7b347e;
   --ifm-color-primary-lighter: #813684;
   --ifm-color-primary-lightest: #923d96;
-  --ifm-code-font-size: 100%;
+  --ifm-code-font-size: 85%;
+  --ifm-code-background: transparent;
 }
 
 /* .AvenirLT-Medium { 
@@ -134,4 +135,8 @@ h1, h2, h3, h4, h5{
 
 .footer--dark{
   --ifm-footer-background-color: var(--gel-color-ui-primary-purple-700);
+}
+code{
+  color: #F64480;
+  border: 0;
 }

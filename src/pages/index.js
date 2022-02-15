@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Brand Guidelines',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -18,7 +18,7 @@ const features = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Design Tokens',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -28,7 +28,7 @@ const features = [
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Accessibility',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
@@ -68,7 +68,7 @@ function Home() {
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--secondary button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>

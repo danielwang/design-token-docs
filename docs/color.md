@@ -5,8 +5,6 @@ title: Colours
 
 <!-- ideally, it should import from node_modules @danielwang/aemo-design-tokens -->
 import * as Token from './tokens'
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
 
 export const ColorBlock = ({color}) => ( <div style={{
     backgroundColor: color,

@@ -7,78 +7,7 @@
 
 /* You can override the default Infima variables here. */
 
- @import "../../node_modules/@danielwang/aemo-design-tokens/build/scss/_variables"; 
-
-:root {
-  --gel-color-primary-purple-700: #360f3c;
-  --gel-color-primary-purple-600: #502252;
-  --gel-color-primary-purple-500: #702f73;
-  --gel-color-primary-purple-400: #b056bc;
-  --gel-color-primary-purple-300: #cc8acf;
-  --gel-color-primary-purple-200: #e8cbea;
-  --gel-color-primary-purple-100: #ede9ed;
-  --gel-color-secondary-red-500: #db3259;
-  --gel-color-secondary-red-100: #feefef;
-  --gel-color-secondary-green-500: #467822;
-  --gel-color-secondary-green-100: #ecf7e3;
-  --gel-color-secondary-blue-500: #5666bc;
-  --gel-color-secondary-blue-100: #f4fbfc;
-  --gel-color-secondary-orange-500: #fe7355;
-  --gel-color-secondary-orange-100: #fff4ec;
-  --gel-color-secondary-yellow: #ffd565;
-  --gel-color-secondary-aqua: #85cee2;
-  --gel-color-secondary-blue-violet: #777da7;
-  --gel-color-secondary-teal: #34b9b3;
-  --gel-color-tertiary-black: #000000;
-  --gel-color-tertiary-slate-700: #434b58;
-  --gel-color-tertiary-slate-500: #6b778c;
-  --gel-color-tertiary-slate-300: #9ea6b5;
-  --gel-color-tertiary-slate-100: #d2d6dd;
-  --gel-color-tertiary-slate-50: #e7edf9;
-  --gel-color-tertiary-link: #3379bf;
-  --gel-color-tertiary-white: #ffffff;
-  --gel-color-fuel-coal: #333536;
-  --gel-color-fuel-brown-coal: #97785c;
-  --gel-color-fuel-distilate: #fe5f55;
-  --gel-color-fuel-biomass: #a82140;
-  --gel-color-fuel-solar: #ffd565;
-  --gel-color-fuel-wind: #a1d978;
-  --gel-color-fuel-hydro: #ade0ee;
-  --gel-color-fuel-renewables: #e1ee8e;
-  --gel-color-fuel-demand-side: #5666bc;
-  --gel-color-fuel-battery: #b056bc;
-  --gel-color-fuel-landfill-gas: #5cdcd6;
-  --gel-color-fuel-sat-pv-or-solar-thermal: #ffb546;
-  --gel-color-fuel-battery-load: #d77ee2;
-  --gel-color-fuel-vpp-battery-load: #e2a8ea;
-  --gel-color-fuel-main: #a096a0;
-  --gel-color-fuel-load: #d4dadd;
-  --gel-font-family-black: "AvenirLT-Black";
-  --gel-font-family-heavy: "AvenirLT-Heavy";
-  --gel-font-family-medium: "AvenirLT-Medium";
-  --gel-font-family-roman: "AvenirLT-Roman";
-  --gel-font-family-book: "AvenirLT-Book";
-  --gel-font-family-weight: normal;
-  --gel-font-size-heading-1: 3.5rem;
-  --gel-font-size-heading-2: 2rem;
-  --gel-font-size-heading-3: 1.5rem;
-  --gel-font-size-heading-4: 1.25rem;
-  --gel-font-size-heading-5: 1rem;
-  --gel-font-size-text-lg: 1.125rem;
-  --gel-font-size-text-default: 1rem;
-  --gel-font-size-text-sm: 0.875rem;
-  --gel-font-size-text-xl: 1.25rem;
-  --gel-font-size-text-xs: 0.75rem;
-  --gel-spacer-0: 0;
-  --gel-spacer-1: 0.25rem;
-  --gel-spacer-2: 0.5rem;
-  --gel-spacer-3: 1rem;
-  --gel-spacer-4: 1.5rem;
-  --gel-spacer-5: 2rem;
-  --gel-spacer-6: 4rem;
-  --gel-spacer-7: 8rem;
-}
-
+ @import "../../node_modules/@danielwang/aemo-design-tokens/build/css/_variables"; 
 
 :root {
   --ifm-color-primary: #702f73;
@@ -90,6 +19,8 @@
   --ifm-color-primary-lightest: #923d96;
   --ifm-code-font-size: 85%;
   --ifm-code-background: transparent;
+  --ifm-blockquote-font-size: 1.5rem
+  
 }
 
 /* .AvenirLT-Medium { 
@@ -114,18 +45,30 @@
 
 @font-face {font-family: 'AvenirLT-Roman';src: url('../fonts/AvenirLTStd-Roman.otf');}
 @font-face {font-family: 'AvenirLT-Black';src: url('../fonts/AvenirLTStd-Black.otf');}
- 
+@font-face {font-family: 'AvenirLT-Book';src: url('../fonts/AvenirLTStd-Book.otf');} 
   
 
 body{
   font-family: var(--gel-font-family-roman);
   font-weight: var(--gel-font-family-weight);
+  font-size: 1.125rem;
 }
 
 h1, h2, h3, h4, h5{
   font-family: var(--gel-font-family-black);
   font-weight: var(--gel-font-family-weight);
 }
+
+.main-wrapper{
+  padding-top: 2rem;
+}
+
+blockquote{
+  font-family: var(--gel-font-family-book);
+  font-weight: var(--gel-font-family-weight);
+}
+
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -133,8 +76,10 @@ h1, h2, h3, h4, h5{
   padding: 0 var(--ifm-pre-padding);
 }
 
+
+
 .footer--dark{
-  --ifm-footer-background-color: var(--gel-color-ui-primary-purple-700);
+  --ifm-footer-background-color: var(--gel-color-primary-purple-700);
 }
 code{
   color: #F64480;

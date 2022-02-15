@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'AEMO Design Tokens',
+  title: 'AEMO Design Guidelines',
   tagline: 'Styling with design tokens makes it easy to ensure that our UI is consistent, and even easier to update it as design evolves.',
   url: 'https://danielwang.github.io',
   baseUrl: '/aemo-design-tokens/',
@@ -11,7 +11,7 @@ module.exports = {
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
-      title: 'AEMO Design Tokens',
+      title: 'AEMO Design Guidelines',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -77,7 +77,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Maintained by DDC`,
     },
   },
   presets: [

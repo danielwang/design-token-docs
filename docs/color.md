@@ -4,7 +4,7 @@ title: Colours
 ---
 
 <!-- ideally, it should import from node_modules @danielwang/aemo-design-tokens -->
-import * as Token from './tokens'
+import * as Token from './_tokens'
 
 export const ColorBlock = ({color}) => ( <div style={{
     backgroundColor: color,

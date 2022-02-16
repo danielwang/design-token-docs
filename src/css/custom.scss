@@ -7,21 +7,29 @@
 
 /* You can override the default Infima variables here. */
 
- @import "../../node_modules/@danielwang/aemo-design-tokens/build/css/_variables"; 
+ @import "../../node_modules/@danielwang/aemo-design-tokens/build/css/_variables.css"; 
 
 :root {
-  --ifm-color-primary: #702f73;
-  --ifm-color-primary-dark: #652a68;
-  --ifm-color-primary-darker: #5f2862;
-  --ifm-color-primary-darkest: #4e2151;
-  --ifm-color-primary-light: #7b347e;
-  --ifm-color-primary-lighter: #813684;
-  --ifm-color-primary-lightest: #923d96;
-  --ifm-code-font-size: 85%;
+  --ifm-color-primary: var(--gel-color-primary-purple-500);
+  --ifm-color-primary-dark: var(--gel-color-primary-purple-600);
+  --ifm-color-primary-darker: var(--gel-color-primary-purple-600);
+  --ifm-color-primary-darkest: var(--gel-color-primary-purple-700);
+  --ifm-color-primary-light: var(--gel-color-primary-purple-400);
+  --ifm-color-primary-lighter: var(--gel-color-primary-purple-300);
+  --ifm-color-primary-lightest: var(--gel-color-primary-purple-200);
+  --ifm-code-font-size: 0.875rem;
   --ifm-code-background: transparent;
-  --ifm-blockquote-font-size: 1.5rem
-  
+  --ifm-blockquote-font-size: 1.5rem;
 }
+
+html[data-theme='dark'] {
+  --ifm-color-primary: #923d96;
+}
+
+.hero--primary{
+  --ifm-hero-background-color: var(--ifm-color-primary-darkest);
+}
+
 
 /* .AvenirLT-Medium { 
 	font-family: AvenirLT-Medium;
@@ -46,17 +54,19 @@
 @font-face {font-family: 'AvenirLT-Roman';src: url('../fonts/AvenirLTStd-Roman.otf');}
 @font-face {font-family: 'AvenirLT-Black';src: url('../fonts/AvenirLTStd-Black.otf');}
 @font-face {font-family: 'AvenirLT-Book';src: url('../fonts/AvenirLTStd-Book.otf');} 
-  
+@font-face {font-family: 'AvenirLT-Medium';src: url('../fonts/AvenirLTStd-Medium.otf');} 
+@font-face {font-family: 'AvenirLT-Heavy';src: url('../fonts/AvenirLTStd-Heavy.otf');} 
+@font-face {font-family: 'AvenirLT-Light';src: url('../fonts/AvenirLTStd-Light.otf');} 
 
 body{
   font-family: var(--gel-font-family-roman);
-  font-weight: var(--gel-font-family-weight);
+  font-weight: var(--gel-font-weight-normal);
   font-size: 1.125rem;
 }
 
 h1, h2, h3, h4, h5{
   font-family: var(--gel-font-family-black);
-  font-weight: var(--gel-font-family-weight);
+  font-weight: var(--gel-font-weight-normal);
 }
 
 .main-wrapper{
@@ -64,7 +74,8 @@ h1, h2, h3, h4, h5{
 }
 
 blockquote{
-  font-family: var(--gel-font-family-book);
+  --gel-font-family-light: "AvenirLT-Light";
+  font-family: var(--gel-font-family-light);
   font-weight: var(--gel-font-family-weight);
 }
 

@@ -18,7 +18,7 @@ For maximum flexibility, there is a horizontal format and a stacked format of th
 
 ##### Horizontal
 
-![img](../static/img/logos/logo-primary-dark.svg)
+![img](../static/img/logos/logo-primary-dark.svg) 
 
 ##### Stacked
 

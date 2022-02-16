@@ -52,6 +52,7 @@
  export const FontFamilyMedium = "\"AvenirLT-Medium\"";
  export const FontFamilyRoman = "\"AvenirLT-Roman\"";
  export const FontFamilyBook = "\"AvenirLT-Book\"";
+ export const FontFamilyLight = "\"AvenirLT-Light\"";
  export const FontFamilyWeight = "normal";
  export const FontSizeHeading1 = "3.5rem";
  export const FontSizeHeading2 = "2rem";

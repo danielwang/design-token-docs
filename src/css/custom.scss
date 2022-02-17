@@ -20,6 +20,7 @@
   --ifm-code-font-size: 0.875rem;
   --ifm-code-background: transparent;
   --ifm-blockquote-font-size: 1.5rem;
+  --ifm-link-color: var(--gel-color-tertiary-link);
 }
 
 html[data-theme='dark'] {
@@ -27,7 +28,7 @@ html[data-theme='dark'] {
 }
 
 .hero--primary{
-  --ifm-hero-background-color: var(--ifm-color-primary-darkest);
+  --ifm-hero-background-color: #3C1053;
 }
 
 
@@ -73,6 +74,12 @@ h1, h2, h3, h4, h5{
   padding-top: 2rem;
 }
 
+.hero__subtitle{
+  --gel-font-family-light: "AvenirLT-Light";
+  font-family: var(--gel-font-family-light);
+  font-weight: var(--gel-font-family-weight);
+}
+
 blockquote{
   --gel-font-family-light: "AvenirLT-Light";
   font-family: var(--gel-font-family-light);
@@ -89,9 +96,6 @@ blockquote{
 
 
 
-.footer--dark{
-  --ifm-footer-background-color: var(--gel-color-primary-purple-700);
-}
 code{
   color: #F64480;
   border: 0;

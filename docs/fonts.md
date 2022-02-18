@@ -9,6 +9,7 @@ custom_edit_url: null
 Our default typeface has been chosen to maximise legibility across a number of font sizes and to ensure we have clear, consistent headings, paragraphs and form elements.
 
 import * as Token from './_tokens' 
+import ShowVar from './_showVar'
 
 export const Text = ({ff, words} ) => ( <span style={{
     fontFamily: ff,
@@ -19,10 +20,10 @@ export const Text = ({ff, words} ) => ( <span style={{
 
 | Demo | Value | SCSS Varibles | Usage
 |---|---|---|---|
-| <Text ff={Token.FontFamilyBlack} words="Avenir Black 95"/> | 'AvenirLT-Black' | `$gel-font-family-black` | headings 
-| <Text ff={Token.FontFamilyHeavy} words="Avenir Heavy 85"/>  | 'AvenirLT-Heavy' | `$gel-font-family-heavy` | buttons, links, bold text
-| <Text ff={Token.FontFamilyRoman} words="Avenir Roman 55"/>  | 'AvenirLT-Roman' | `$gel-font-family-roman` | body text
-| <Text ff={Token.FontFamilyLight} words="Avenir Book 35"/>  | 'AvenirLT-Light' | `$gel-font-family-light` | leading text
+| <Text ff={Token.FontFamilyBlack} words="Avenir Black 95"/> | <ShowVar code={Token.FontFamilyBlack} /> | `$gel-font-family-black` | headings 
+| <Text ff={Token.FontFamilyHeavy} words="Avenir Heavy 85"/>  | <ShowVar code={Token.FontFamilyHeavy} />  | `$gel-font-family-heavy` | buttons, links, bold text
+| <Text ff={Token.FontFamilyRoman} words="Avenir Roman 55"/>  | <ShowVar code={Token.FontFamilyRoman} />  | `$gel-font-family-roman` | body text
+| <Text ff={Token.FontFamilyLight} words="Avenir Book 35"/>  | <ShowVar code={Token.FontFamilyLight} />  | `$gel-font-family-light` | leading text
 
 ## Code Formats
 

@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    "Design Tokens": ['intro','color', 'fonts', 'font-size', 'line-height', 'radius', 'shadows', 'space', 'opacity',  'breakpoints','z-index'],
+    "Design Tokens": ['intro','color', 'fonts', 'font-size', 'radius', 'elevations', 'space', 'opacity',  'breakpoints', 'z-index'],
     "Brand Guideline" : ['logo', 'colours', 'type', 'icons'],
   },
 };

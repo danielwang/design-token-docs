@@ -4,6 +4,22 @@ title: Radius
 custom_edit_url: null
 ---
 
->Good typography not only differentiates a brand but also communicates the brand’s style, personality and tone of voice. It has a huge influence on brand perception and recognition. 
-     
-Our default typeface has been chosen to maximise legibility across a number of font sizes and to ensure we have clear, consistent headings, paragraphs and form elements.
+>Border-radius is used to give any element rounded corners. Use the below defined tokens to set radiuses consistently.
+
+import * as Token from './_tokens'
+import ShowVar from './_showVar'
+
+export const Box = ({code}) => ( <div style={{
+    backgroundColor: Token.ColorPrimaryPurple200,
+    width: '6rem',
+    height: '6rem',
+    borderRadius: code
+  }}></div> );
+
+| Demo | Value | SCSS Varibles 
+|---|---|---|
+| <Box code={Token.RadiusNone} /> | <ShowVar code={Token.RadiusNone} />  | `$gel-radius-none`
+| <Box code={Token.RadiusSm} /> | <ShowVar code={Token.RadiusSm} />  | `$gel-radius-sm`
+| <Box code={Token.RadiusMd} /> | <ShowVar code={Token.RadiusMd} />  | `$gel-radius-md`
+| <Box code={Token.RadiusLg} /> | <ShowVar code={Token.RadiusLg} />  | `$gel-radius-lg`
+| <Box code={Token.RadiusCircle} /> | <ShowVar code={Token.RadiusCircle} />  | `$gel-radius-circle`

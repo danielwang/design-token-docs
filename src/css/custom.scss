@@ -7,7 +7,15 @@
 
 /* You can override the default Infima variables here. */
 
- @import "../../node_modules/@danielwang/aemo-design-tokens/build/css/_variables.css"; 
+@import "../../node_modules/@danielwang/aemo-design-tokens/build/css/_variables.css"; 
+
+@font-face {font-family: 'AvenirLT-Roman';src: url('../fonts/AvenirLTStd-Roman.otf');}
+@font-face {font-family: 'AvenirLT-Black';src: url('../fonts/AvenirLTStd-Black.otf');}
+@font-face {font-family: 'AvenirLT-Book';src: url('../fonts/AvenirLTStd-Book.otf');} 
+@font-face {font-family: 'AvenirLT-Medium';src: url('../fonts/AvenirLTStd-Medium.otf');} 
+@font-face {font-family: 'AvenirLT-Heavy';src: url('../fonts/AvenirLTStd-Heavy.otf');} 
+@font-face {font-family: 'AvenirLT-Light';src: url('../fonts/AvenirLTStd-Light.otf');} 
+
 
 :root {
   --ifm-color-primary: var(--gel-color-primary-purple-500);
@@ -21,43 +29,12 @@
   --ifm-code-background: transparent;
   --ifm-blockquote-font-size: 1.5rem;
   --ifm-link-color: var(--gel-color-tertiary-link);
+  --ifm-menu-color: var(--gel-color-tertiary-slate-700);
 }
 
 html[data-theme='dark'] {
   --ifm-color-primary: #923d96;
 }
-
-.hero--primary{
-  --ifm-hero-background-color: #3C1053;
-}
-
-
-/* .AvenirLT-Medium { 
-	font-family: AvenirLT-Medium;
-	font-weight: normal;
-}
-.AvenirLT-Roman { 
-	font-family: AvenirLT-Roman;
-	font-weight: normal;
-}
-.AvenirLT-Book { 
-	font-family: AvenirLT-Book;
-	font-weight: normal;
-} 
-  --gel-font-family-black: "AvenirLT-Black";
-  --gel-font-family-heavy: "AvenirLT-Heavy";
-  --gel-font-family-medium: "AvenirLT-Medium";
-  --gel-font-family-roman: "AvenirLT-Roman";
-  --gel-font-family-book: "AvenirLT-Book";
-  --gel-font-family-weight: normal;
-*/
-
-@font-face {font-family: 'AvenirLT-Roman';src: url('../fonts/AvenirLTStd-Roman.otf');}
-@font-face {font-family: 'AvenirLT-Black';src: url('../fonts/AvenirLTStd-Black.otf');}
-@font-face {font-family: 'AvenirLT-Book';src: url('../fonts/AvenirLTStd-Book.otf');} 
-@font-face {font-family: 'AvenirLT-Medium';src: url('../fonts/AvenirLTStd-Medium.otf');} 
-@font-face {font-family: 'AvenirLT-Heavy';src: url('../fonts/AvenirLTStd-Heavy.otf');} 
-@font-face {font-family: 'AvenirLT-Light';src: url('../fonts/AvenirLTStd-Light.otf');} 
 
 body{
   font-family: var(--gel-font-family-roman);
@@ -70,6 +47,28 @@ h1, h2, h3, h4, h5{
   font-weight: var(--gel-font-weight-normal);
 }
 
+blockquote{
+  --gel-font-family-light: "AvenirLT-Light";
+  font-family: var(--gel-font-family-light);
+  font-weight: var(--gel-font-family-weight);
+}
+
+code{
+  color: #F64480;
+  border: 0;
+}
+
+.hero--primary{
+  --ifm-hero-background-color: #3C1053;
+}
+
+.menu__link--sublist{
+  font-family: var(--gel-font-family-heavy);
+}
+.menu__link{
+  font-size: 1rem;
+}
+
 .main-wrapper{
   padding-top: 2rem;
 }
@@ -80,13 +79,6 @@ h1, h2, h3, h4, h5{
   font-weight: var(--gel-font-family-weight);
 }
 
-blockquote{
-  --gel-font-family-light: "AvenirLT-Light";
-  font-family: var(--gel-font-family-light);
-  font-weight: var(--gel-font-family-weight);
-}
-
-
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -96,7 +88,3 @@ blockquote{
 
 
 
-code{
-  color: #F64480;
-  border: 0;
-}

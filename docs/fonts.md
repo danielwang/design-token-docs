@@ -17,14 +17,16 @@ export const Text = ({ff, words} ) => ( <span style={{
 
 ## Fonts
 
-| Name | Value | SCSS Varibles | Usage
+| Demo | Value | SCSS Varibles | Usage
 |---|---|---|---|
 | <Text ff={Token.FontFamilyBlack} words="Avenir Black 95"/> | 'AvenirLT-Black' | `$gel-font-family-black` | headings 
 | <Text ff={Token.FontFamilyHeavy} words="Avenir Heavy 85"/>  | 'AvenirLT-Heavy' | `$gel-font-family-heavy` | buttons, links, bold text
 | <Text ff={Token.FontFamilyRoman} words="Avenir Roman 55"/>  | 'AvenirLT-Roman' | `$gel-font-family-roman` | body text
 | <Text ff={Token.FontFamilyLight} words="Avenir Book 35"/>  | 'AvenirLT-Light' | `$gel-font-family-light` | leading text
 
-### CSS
+## Code Formats
+
+### CSS 
 
 ```css
     .classname{

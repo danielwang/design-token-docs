@@ -77,13 +77,11 @@ export const ColorBlock = ({color}) => ( <div style={{
 | <ColorBlock color={Token.ColorFuelMain} /> | Main | <ShowVar code={Token.ColorFuelCoal} /> | `$gel-color-fuel-main` 
 | <ColorBlock color={Token.ColorFuelLoad} /> | Load | <ShowVar code={Token.ColorFuelLoad} /> | `$gel-color-fuel-load` 
 
-## Code Formats
+## Code
 
 ### CSS Varibles
 
 ```css
-@import url('aemo-tokens.css');
-
 .class_name {
   color: var(--gel-color-primary-purple-500);
 }
@@ -92,8 +90,6 @@ export const ColorBlock = ({color}) => ( <div style={{
 ### Sass
 
 ```css
-@import "aemo-tokens.scss";
-
 .class_name {
   color: $gel-color-primary-purple-500;
 }
@@ -102,8 +98,6 @@ export const ColorBlock = ({color}) => ( <div style={{
 ### Less
 
 ```css
-@import (reference) "aemo-tokens.less";
-
 .class_name {
   color: @gel-color-primary-purple-500;
 }
@@ -112,22 +106,16 @@ export const ColorBlock = ({color}) => ( <div style={{
 ### JavaScript
 
 ```js
-import token from 'aemo-tokens.js';
-
 document.getElementById(id).style.color = token.ColorPrimaryPurple500;
 ```
 
 ### XML
-
-Download and paste [aemo-tokens.android.xml](https://github.com/danielwang/aemo-design-tokens) to your Android project. Then:
 
 ```xml
 <item android:color="@color/gel_color_primary_purple_500" />
 ```
 
 ### Swift
-
-Download and paste [aemo-tokens.android.swift](https://github.com/danielwang/aemo-design-tokens) to your Swift project. Then:
 
 ```swift
 tokens.gelColorPrimaryPurple500

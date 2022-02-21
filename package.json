@@ -9,8 +9,7 @@
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
-    "clear": "docusaurus clear",
-    "generate-tokens-docs": "node generateTokenDocs.js"
+    "clear": "docusaurus clear"
   },
   "dependencies": {
     "@danielwang/aemo-design-tokens": "^0.3.0",

@@ -22,8 +22,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Styling with design tokens makes it easy to ensure that our UI is consistent, and even easier to update it as design evolves.
       </>
     ),
   },

@@ -5,7 +5,7 @@ custom_edit_url: null
 ---
 > The opacity property specifies how transparent an element is. Use the below defined tokens to set transparencies consistently.
 
-import * as Token from './_tokens'
+import * as Token from '@danielwang/aemo-design-tokens/dist'
 import ShowVar from './_showVar'
 import styles from './_styles.module.scss';
 

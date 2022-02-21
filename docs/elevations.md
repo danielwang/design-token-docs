@@ -8,7 +8,7 @@ custom_edit_url: null
      
 Shadows can add very attractive depth and interaction to our design. Keeping them consistent from one component to another is very important. 
 
-import * as Token from './_tokens'
+import * as Token from '@danielwang/aemo-design-tokens/dist'
 import ShowVar from './_showVar'
 
 export const Box = ({code}) => ( <div style={{

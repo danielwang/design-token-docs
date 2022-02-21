@@ -6,7 +6,7 @@ custom_edit_url: null
 
 >Good typography not only differentiates a brand but also communicates the brand’s style, personality and tone of voice. It has a huge influence on brand perception and recognition. 
      
-import * as Token from './_tokens'
+import * as Token from '@danielwang/aemo-design-tokens/dist'
 import ShowVar from './_showVar'
 
 

@@ -6,7 +6,7 @@ custom_edit_url: null
 
 >Border-radius is used to give any element rounded corners. Use the below defined tokens to set radiuses consistently.
 
-import * as Token from './_tokens'
+import * as Token from '@danielwang/aemo-design-tokens/dist'
 import ShowVar from './_showVar'
 
 export const Box = ({code}) => ( <div style={{

@@ -9,7 +9,7 @@ custom_edit_url: null
 Multiplying and dividing these values is allowed using even numbers ( x2 x4 or /2 /4 etc ).
 :::
 
-import * as Token from './_tokens'
+import * as Token from '@danielwang/aemo-design-tokens/dist'
 import ShowVar from './_showVar'
 
 export const Space = ({spacer}) => ( <div style={{

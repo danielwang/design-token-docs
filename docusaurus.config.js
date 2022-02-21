@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'AEMO Design Guidelines',
+  title: 'GEL Design Guidelines',
   tagline: 'Styling with design tokens makes it easy to ensure that our UI is consistent, and even easier to update it as design evolves.',
   url: 'https://danielwang.github.io',
   baseUrl: '/aemo-design-tokens/',
@@ -11,7 +11,7 @@ module.exports = {
   plugins: ['docusaurus-plugin-sass'],
   themeConfig: {
     navbar: {
-      title: 'AEMO Design Guidelines',
+      title: 'GEL Design Guidelines',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -23,11 +23,11 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {
-          href: 'https://github.com/danielwang/design-token-docs',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   href: 'https://github.com/danielwang/design-token-docs',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {

@@ -8,7 +8,7 @@ custom_edit_url: null
      
 Our default typeface has been chosen to maximise legibility across a number of font sizes and to ensure we have clear, consistent headings, paragraphs and form elements.
 
-import * as Token from './_tokens' 
+import * as Token from '@danielwang/aemo-design-tokens/dist' 
 import ShowVar from './_showVar'
 
 export const Text = ({ff, words} ) => ( <span style={{

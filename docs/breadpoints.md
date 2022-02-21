@@ -6,4 +6,14 @@ custom_edit_url: null
 
 >Good typography not only differentiates a brand but also communicates the brand’s style, personality and tone of voice. It has a huge influence on brand perception and recognition. 
      
-Our default typeface has been chosen to maximise legibility across a number of font sizes and to ensure we have clear, consistent headings, paragraphs and form elements.
+import * as Token from './_tokens'
+import ShowVar from './_showVar'
+
+
+| Value | SCSS Varibles 
+|---|---|
+| <ShowVar code={Token.BreakpointsSm} />  | `$gel-breakpoint-sm`
+| <ShowVar code={Token.BreakpointsMd} />  | `$gel-breakpoint-md`
+| <ShowVar code={Token.BreakpointsLg} />  | `$gel-breakpoint-lg`
+| <ShowVar code={Token.BreakpointsXl} />  | `$gel-breakpoint-xl`
+| <ShowVar code={Token.BreakpointsXxl} />  | `$gel-breakpoint-xxl`

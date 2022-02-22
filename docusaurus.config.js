@@ -77,7 +77,7 @@ module.exports = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} Maintained by DDC`,
+      copyright: `Copyright © ${new Date().getFullYear()} Crafted and coded by Daniel Wang`,
     },
   },
   presets: [

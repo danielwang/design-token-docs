@@ -33,3 +33,4 @@ Effective token names improve and sustain a team’s shared understanding of vis
 Whenever a component is created, we discuss — with the designers and developers involved in the design system — the possible states and variants of the component, and its specific design decisions. Then we translate all these specifications into specific design tokens.
 
 ![img](../static/img/token-demo.svg) 
+

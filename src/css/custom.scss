@@ -6,8 +6,7 @@
  */
 
 /* You can override the default Infima variables here. */
-
-@import "@danielwang/aemo-design-tokens/build/css/_variables.css"; 
+@import "@danielwang/aemo-design-tokens/dist/_tokens.css"; 
 
 @font-face {font-family: 'AvenirLT-Roman';src: url('../fonts/AvenirLTStd-Roman.otf');}
 @font-face {font-family: 'AvenirLT-Black';src: url('../fonts/AvenirLTStd-Black.otf');}

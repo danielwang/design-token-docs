@@ -18,7 +18,7 @@ export const Text = ({fs, words} ) => ( <span style={{
 
 ### Heading
 
-| Demo | SCSS Varibles 
+| Demo | SCSS Variables 
 |---|---|
 | <Text fs={Token.FontSizeHeading1} words="Font size"/> | `$gel-font-size-heading-1` 
 | <Text fs={Token.FontSizeHeading2} words="Font size"/> | `$gel-font-size-heading-2` 
@@ -28,7 +28,7 @@ export const Text = ({fs, words} ) => ( <span style={{
 
 
 ### Text
-| Demo | SCSS Varibles 
+| Demo | SCSS Variables 
 |---|---|
 | <Text fs={Token.FontSizeTextXl} words="Font size"/> | `$gel-font-size-xl` 
 | <Text fs={Token.FontSizeTextLg} words="Font size"/> | `$gel-font-size-lg` 
@@ -38,7 +38,7 @@ export const Text = ({fs, words} ) => ( <span style={{
 
 ## Line Height
 
-| Value | SCSS Varibles 
+| Value | SCSS Variables 
 |---|---|
 | 1 | `$gel-line-heihgt-reset` 
 | 1.25 | `$gel-line-heihgt-heading` 

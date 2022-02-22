@@ -18,7 +18,7 @@ export const Box = ({code}) => ( <div style={{
     boxShadow: code
   }}></div> );
 
-| Demo | Value | SCSS Varibles 
+| Demo | Value | SCSS Variables 
 |---|---|---|
 | <Box code={Token.ElevationNone} /> | <ShowVar code={Token.ElevationNone} />  | `$gel-elevation-none`
 | <Box code={Token.ElevationLow} /> | <ShowVar code={Token.ElevationLow} /> | `$gel-elevation-low`

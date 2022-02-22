@@ -16,7 +16,7 @@ export const Box = ({code}) => ( <div style={{
     borderRadius: code
   }}></div> );
 
-| Demo | Value | SCSS Varibles 
+| Demo | Value | SCSS Variables 
 |---|---|---|
 | <Box code={Token.RadiusNone} /> | <ShowVar code={Token.RadiusNone} />  | `$gel-radius-none`
 | <Box code={Token.RadiusSm} /> | <ShowVar code={Token.RadiusSm} />  | `$gel-radius-sm`

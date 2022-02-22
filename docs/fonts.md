@@ -18,7 +18,7 @@ export const Text = ({ff, words} ) => ( <span style={{
 
 ## Fonts
 
-| Demo | Value | SCSS Varibles | Usage
+| Demo | Value | SCSS Variables | Usage
 |---|---|---|---|
 | <Text ff={Token.FontFamilyBlack} words="Avenir Black 95"/> | <ShowVar code={Token.FontFamilyBlack} /> | `$gel-font-family-black` | headings 
 | <Text ff={Token.FontFamilyHeavy} words="Avenir Heavy 85"/>  | <ShowVar code={Token.FontFamilyHeavy} />  | `$gel-font-family-heavy` | buttons, links, bold text

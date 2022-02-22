@@ -18,7 +18,7 @@ export const Space = ({spacer}) => ( <div style={{
     height: '2rem',
   }}></div> );
 
-| Demo | Value | SCSS Varibles 
+| Demo | Value | SCSS Variables 
 |---|---|---|
 | <Space spacer={Token.Spacer0} /> | <ShowVar code={Token.Spacer0} /> | `$gel-spacer-0`
 | <Space spacer={Token.Spacer1} /> | <ShowVar code={Token.Spacer1} /> | `$gel-spacer-1`

@@ -10,7 +10,7 @@ import * as Token from '@danielwang/aemo-design-tokens/dist'
 import ShowVar from './_showVar'
 
 
-| Value | SCSS Varibles 
+| Value | SCSS Variables 
 |---|---|
 | <ShowVar code={Token.BreakpointsSm} />  | `$gel-breakpoint-sm`
 | <ShowVar code={Token.BreakpointsMd} />  | `$gel-breakpoint-md`

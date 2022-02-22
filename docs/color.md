@@ -16,7 +16,7 @@ export const ColorBlock = ({color}) => ( <div style={{
 
 
 ## Primary
-| Example | Name | Value | SCSS Varibles 
+| Example | Name | Value | SCSS Variables 
 |---|---|---|---|
 | <ColorBlock color={Token.ColorPrimaryPurple700} /> | Purple 700 | <ShowVar code={Token.ColorPrimaryPurple700} /> | `$gel-color-primary-purple-700` 
 | <ColorBlock color={Token.ColorPrimaryPurple600} /> | Purple 600 | <ShowVar code={Token.ColorPrimaryPurple600} /> | `$gel-color-primary-purple-600` 
@@ -29,7 +29,7 @@ export const ColorBlock = ({color}) => ( <div style={{
 
 ## Secondary
 
-| Example | Name | Value | SCSS Varibles 
+| Example | Name | Value | SCSS Variables 
 |---|---|---|---|
 | <ColorBlock color={Token.ColorSecondaryBlue500} /> | Blue 500 | <ShowVar code={Token.ColorSecondaryBlue500} /> | `$gel-color-secondary-blue-500` 
 | <ColorBlock color={Token.ColorSecondaryBlue100} /> | Blue 100 | <ShowVar code={Token.ColorSecondaryBlue100} /> | `$gel-color-secondary-blue-100` 
@@ -45,7 +45,7 @@ export const ColorBlock = ({color}) => ( <div style={{
 | <ColorBlock color={Token.ColorSecondaryBlueViolet} /> | Blue Violet | <ShowVar code={Token.ColorSecondaryBlueViolet} /> | `$gel-color-secondary-blue-violet` 
 
 ## Tertiary
-| Example | Name | Value | SCSS Varibles 
+| Example | Name | Value | SCSS Variables 
 |---|---|---|---|
 | <ColorBlock color={Token.ColorTertiaryLink} /> | Link | <ShowVar code={Token.ColorTertiaryLink} /> | `$gel-color-tertiary-link`
 | <ColorBlock color={Token.ColorTertiaryBlack} /> | Black | <ShowVar code={Token.ColorTertiaryBlack} /> | `$gel-color-tertiary-black`
@@ -57,7 +57,7 @@ export const ColorBlock = ({color}) => ( <div style={{
 | <ColorBlock color={Token.ColorTertiarySlate50} /> | Slate 50 | <ShowVar code={Token.ColorTertiarySlate50} /> | `$gel-color-tertiary-slate-50`  
 
 ## Fuel
-| Example | Name | Value | SCSS Varibles 
+| Example | Name | Value | SCSS Variables 
 |---|---|---|---|
 | <ColorBlock color={Token.ColorFuelCoal} /> | Coal | <ShowVar code={Token.ColorFuelCoal} /> | `$gel-color-fuel-coal` 
 | <ColorBlock color={Token.ColorFuelBrownCoal} /> | Brown Coal | <ShowVar code={Token.ColorFuelBrownCoal} /> | `$gel-color-fuel-brown-coal` 
@@ -78,7 +78,7 @@ export const ColorBlock = ({color}) => ( <div style={{
 
 ## Code
 
-### CSS Varibles
+### CSS Variables
 
 ```css
 .class_name {

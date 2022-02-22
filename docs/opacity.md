@@ -16,7 +16,7 @@ export const Opacity = ({opacity}) => (<div style={{
     opacity: opacity
   }}></div>);
 
-| Demo | Value | SCSS Varibles 
+| Demo | Value | SCSS Variables 
 |---|---|---|
 | <div className={styles.opacityDemo}><Opacity opacity={Token.Opacity10} /></div> | <ShowVar code={Token.Opacity100} /> | `$gel-opacity-100`
 | <div className={styles.opacityDemo}><Opacity opacity={Token.Opacity75} /></div>| <ShowVar code={Token.Opacity75} /> | `$gel-opacity-75`

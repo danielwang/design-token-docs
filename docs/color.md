@@ -1,6 +1,7 @@
 ---
 id: color
 title: Colours
+custom_edit_url: null
 ---
 
 import * as Token from '@danielwang/aemo-design-tokens/dist'

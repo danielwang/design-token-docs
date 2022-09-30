@@ -23,3 +23,5 @@ export const Opacity = ({opacity}) => (<div style={{
 | <div className={styles.opacityDemo}><Opacity opacity={Token.Opacity50} /></div> | <ShowVar code={Token.Opacity50} /> | `$gel-opacity-50`
 | <div className={styles.opacityDemo}><Opacity opacity={Token.Opacity25} /></div> | <ShowVar code={Token.Opacity25} /> | `$gel-opacity-25`
 | <div className={styles.opacityDemo}><Opacity opacity={Token.Opacity0} /></div> | <ShowVar code={Token.Opacity0} /> | `$gel-opacity-0`
+
+
